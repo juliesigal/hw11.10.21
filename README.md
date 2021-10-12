@@ -79,4 +79,20 @@ else:
 
 print(name, "pays ", tax, "taxes")
 
+==========targil 2 page 20
+
+grade = int(input("please enter a number"))
+
+if grade < 55:
+    print("not enough")
+elif grade < 65:
+    print("enough")
+elif grade < 75:
+    print("almost good")
+elif grade < 85:
+    print("good")
+elif grade < 95:
+    print("very good")
+else:
+    print("exellent")
 
