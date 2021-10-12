@@ -96,5 +96,71 @@ elif grade < 95:
 else:
     print("exellent")
     
-    
+==========targil 13 page 25
 
+x = int(input("please enter a number"))
+dig = int(input("please enter a number"))
+quantity = 0
+
+if x < 0:
+    x = x * (-1)
+
+while x > 0:
+    if x % 10 == dig:
+        quantity +=1
+    x = x // 10
+
+print(quantity)
+ 
+==========targil 14 page 25
+
+x = int(input("please enter a number"))
+dig = 0
+opposite = 0
+
+if x < 0:
+    x = x * (-1)
+
+while x > 0:
+    dig = x % 10
+    opposite = opposite*10 + dig
+    x = x // 10
+
+print(opposite)
+
+==========targil 15 page 25
+
+x = int(input("please enter a number"))
+opposite = 0
+
+if x < 0:
+    x = x * (-1)
+
+y = x
+
+while x > 0:
+    if x > 9:
+           dig = x % 10
+           opposite = opposite*10 + dig
+    else:
+        opposite = opposite*10 + x
+    x = x // 10
+
+if y == opposite:
+    print("palindrome")
+else:
+    print("not palindrome")
+    
+=========targil 16 page 26
+
+x = int(input("please enter a number"))
+y = int(input("please enter a number"))
+result = 0
+
+i = 1
+
+while i <= y:
+    result = result + x
+    i = i + 1
+
+print(result)
