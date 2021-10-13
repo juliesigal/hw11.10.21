@@ -135,6 +135,40 @@ opposite = 0
 
 if x < 0:
     x = x * (-1)
+    
+***targil 8 page 25:
+  
+x = int(input("please enter a number"))
+min = x
+
+while x > 0:
+
+    if x < min:
+        min = x
+
+    x = int(input("please enter a number"))
+
+if min > 0:
+    print(min)
+    
+    
+****targil 9 page 25
+
+x = int(input("please enter a number"))
+
+max = x
+i = 1
+counter = i
+
+while i < 100:
+    x = int(input("please enter a number"))
+    i = i + 1
+    if x > max:
+        max = x
+        counter = i
+
+print(counter)
+    
 
 y = x
 
@@ -185,4 +219,15 @@ while i <= x:
         print(i)
     i += 1
     
-=========targil     
+=========targil 5 page 29
+
+while True:
+    x = int(input('enter a number for prime detection'))
+    i = 2
+
+    while x % i != 0:
+        i += 1
+    if i == x:
+        break
+    else:
+        print(x)
