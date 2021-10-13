@@ -164,3 +164,25 @@ while i <= y:
     i = i + 1
 
 print(result)
+
+=========targil 19 page 23
+
+x = int(input('please enter the factorial request'))
+atz = 1
+i = 2
+while i <= x:
+    atz *= i
+    i += 1
+print(atz)
+
+=========targil 23 page 26
+
+x = int(input("please enter a number"))
+i = 1
+
+while i <= x:
+    if x % i == 0:
+        print(i)
+    i += 1
+    
+=========targil     
